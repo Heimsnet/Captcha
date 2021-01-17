@@ -11,4 +11,4 @@ Fork the repository and add your improvements. Then create a pull request descri
 
 ## License
 
-Licensed under (https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt)[the EUPL]. 
+Licensed under [the EUPL](https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt).
