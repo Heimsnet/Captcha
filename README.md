@@ -8,3 +8,7 @@ Download this repository, change the config.template.json to config.json and cha
 ## Contributing
 
 Fork the repository and add your improvements. Then create a pull request describing your changes. Your changes will be reviewed and (hopefully) accepted.
+
+## License
+
+Licensed under (the EUPL)[https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/2020-03/EUPL-1.2%20EN.txt]. 
