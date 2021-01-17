@@ -5,7 +5,7 @@ Verification system for the Heimsnet Discord server.
 
 Download this repository, change the config.template.json to config.json and change the values to the correct ones for your setup. Then run the node.js app using a process manager like PM2 or in a Docker container. Finally reverse proxy the app via nginx for performance benefits.
 
-_**Notice:** anyone is permitted to use this software in accordance to the license, however, the user interface (all HTMl/CSS/EJS files) is not available for public use and any attempts at using it will be countered. If you see anyone using our user interface without permission please report it to (legal@heimsnet.eu)[mailto:legal@heimsnet.eu]_
+_**Notice:** anyone is permitted to use this software in accordance to the license, however, the user interface (all HTMl/CSS/EJS files) is not available for public use and any attempts at using it will be countered. If you see anyone using our user interface without permission please report it to [legal@heimsnet.eu](mailto:legal@heimsnet.eu)_
 
 ## Contributing
 
