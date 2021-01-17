@@ -1,0 +1,30 @@
+/*
+
+    Heimsnet Captcha verification system
+    Frontend code is subject to copyright.
+    (c) Heimsnet Group - All rights reserved.
+    
+*/
+html,body {
+    background-color: #ec0819;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}

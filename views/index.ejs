@@ -1,0 +1,38 @@
+<!--
+
+    Heimsnet Captcha verification system
+    Frontend code is subject to copyright.
+    (c) Heimsnet Group - All rights reserved.
+    
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" type="image/svg+xml" href="https://cdn.heimsnet.eu/image/website/red.svg">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <title>Verify Heimsnet account</title>
+    </head>
+    <body>
+        <div class="centre">
+            <img src="https://cdn.heimsnet.eu/image/website/logo.svg" width="140">
+            <h2>Please verify your account</h2>
+            <form id="verify" action="/verify?id=<%= userid %>" method="POST">
+                <div class="g-recaptcha" data-sitekey="6LcTGuQZAAAAAHilMJhVD7RP6ZUASQVy4XlpvXQ1" data-callback="submit"></div>
+                <button id="no-autosubmit">Click here if you don't get redirected automatically.</button>
+            </form>
+        </div>
+        <script>
+            function submit() {
+                document.getElementById('verify').submit();
+                setTimeout(function() {
+                    document.getElementById('no-autosubmit').style.display = "inline-block";
+                }, 2000)
+            }
+        </script>
+    </body>
+</html>

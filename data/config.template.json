@@ -1,0 +1,7 @@
+{
+    "site-key": "recaptcha-site-key",
+    "secret-key": "recaptcha-secret-key",
+    "bot_token": "discord-bot-token",
+    "server": "discord-server-id",
+    "role": "verified-role-id"
+}
